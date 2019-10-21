@@ -1,0 +1,158 @@
+body {
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(249, 249, 249, 0.963542) 12.5%, rgba(249, 249, 249, 0.963542) 28.12%, rgba(196, 196, 196, 0.65) 100%);
+}
+
+.body {
+  background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(249, 249, 249, 0.963542) 12.5%, rgba(249, 249, 249, 0.963542) 28.12%, rgba(196, 196, 196, 0.65) 100%);
+  height:  101vh;
+}
+
+.pt-btn {
+  background: linear-gradient(90.29deg, #C52BC8 0.11%, #EA2C93 99.92%);
+  border: none;
+  color: white;;
+}
+
+
+.nav {
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+.dis-image {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.section-image{
+  display: none;
+  position: absolute;
+  top: -6%;
+  bottom: 0;
+}
+
+
+.footer {
+  color: black;
+  border-top:  1px solid black;
+  margin-top: 70%;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.side-text {
+  margin-top: 50%;
+  margin-left:  30%;
+  transform:  translate(-30%, -30%);
+}
+
+.side-text h6 {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  line-height: 20px;
+ 
+}
+
+
+.right-text h6 {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .body {
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(249, 249, 249, 0.963542) 12.5%, rgba(249, 249, 249, 0.963542) 28.12%, rgba(196, 196, 196, 0.65) 100%);
+    height:  101vh;
+  }
+  
+  .pt-btn {
+    background: linear-gradient(90.29deg, #C52BC8 0.11%, #EA2C93 99.92%);
+    border: none;
+    color: white;;
+  }
+  
+  
+  .nav {
+    border-bottom: 1px solid black;
+    color: black;
+  }
+  
+  .dis-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .section-image{
+    position: absolute;
+    top: -6%;
+    bottom: 0;
+    animation: swing 0.5s ease forwards;
+    transform: translateY(-200%);
+  }
+  
+  @keyframes swing {
+    0%{opacity: 0;}
+    70%{ transform: translateY(70px)}
+    100%{transform: translateY(10px)}
+  }
+  
+  .footer {
+    position: relative;
+    color: black;
+    border-top:  1px solid black;
+    margin-top: 47%;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .side-text {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 4%;
+    animation: side  0.9s  0.7s ease forwards;
+    transform: translateX(-200%);
+  }
+  
+  @keyframes side {
+    0%{opacity: 0;}
+    70%{ transform: translateX(70px)}
+    100%{transform: translateX(10px)}
+  }
+  
+  .side-text h6 {
+    color: black;
+    font-size: 64px;
+   
+  }
+  
+  .right-text {
+    position: absolute;
+    margin-left:65%;
+    margin-top: 20%;
+    transform: translateX(300%);
+    animation: nice 0.9s  1s ease forwards;
+  }
+  
+  @keyframes nice {
+    0%{opacity: 0;}
+    70%{ transform: translateX(70px)}
+    100%{transform: translateX(10px)}
+  }
+  
+  .right-text h6 {
+    color: black;
+    font-size: 60px;
+  }
+  
+}
+
